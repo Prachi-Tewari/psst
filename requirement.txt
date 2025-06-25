@@ -1,5 +1,7 @@
-streamlit
+pytesseract
+tesseract
 opencv-python
 numpy
-pytesseract
-face_recognition
+streamlit
+insightface
+onnxruntime
