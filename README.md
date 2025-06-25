@@ -13,8 +13,6 @@ To develop a lightweight system that verifies a user's age and identity using a 
 - OpenCV  
 - Tesseract OCR  
 - Insightface (for face verification)  
-- FastAPI (for API creation)  
-- Docker & Docker Compose  
 - Streamlit (for frontend demo)
 
 ---
@@ -30,11 +28,6 @@ To develop a lightweight system that verifies a user's age and identity using a 
 - Face Verification  
   Compared the Aadhaar image with a live selfie using Insightface to verify identity.
 
-- FastAPI Backend  
-  Built APIs to handle image uploads, process requests, and return results.
-
-- Dockerized Application  
-  Packaged the system into Docker for platform-independent deployment.
 
 ---
 
