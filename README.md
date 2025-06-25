@@ -1,4 +1,4 @@
-# MD-TEAM PSST  
+# TEAM PSST  
 [Try it here → proofa.streamlit.app](https://proofa.streamlit.app)
 
 ## Objective  
