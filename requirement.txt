@@ -1,0 +1,7 @@
+pytesseract
+tesseract
+opencv-python
+numpy
+streamlit
+insightface
+onnxruntime
