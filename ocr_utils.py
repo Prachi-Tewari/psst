@@ -5,7 +5,13 @@ import re
 from datetime import datetime
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
+import shutil
+tesseract_path = shutil.which("tesseract")
+if tesseract_path:
+    pytesseract.pytesseract.tesseract_cmd = tesseract_path
+else:
+    raise EnvironmentError("Tesseract not found. Make sure it's installed in the system.")
+
 
 def extract_dob_and_age(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
